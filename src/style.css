@@ -1,0 +1,163 @@
+:root {
+  --dark: #292b2c;
+  --light: #f7f7f7;
+  --medium: #d3d3d3;
+  --primary: #ffa25e;
+}
+
+body {
+  background-color: var(--light);
+  font-family: "Montserrat", serif;
+  font-size: 1.2em;
+  line-height: 1.35em;
+  text-align: justify;
+}
+
+.dark .card {
+  background-color: var(--dark);
+  border-width: 0px;
+}
+
+.card-img-top {
+  height: 15.625rem;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.contact {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: var(--light);
+  text-decoration: underline;
+}
+
+.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.fas {
+  font-size: 0.9375rem;
+}
+
+header {
+  align-items: center;
+  border-bottom-left-radius: 2.1875rem;
+  border-bottom-right-radius: 2.1875rem;
+  color: var(--medium);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+header .button {
+  bottom: 1.875rem;
+  position: absolute;
+}
+
+header .fas {
+  color: var(--primary);
+  font-size: 3.125rem;
+  margin-bottom: 0.625rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+header h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 1.875rem;
+  margin-right: 0.625rem;
+  width: 1.875rem;
+}
+
+.nav-link {
+  border-top: 0.1875rem solid transparent;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  border-top: 0.1875rem solid var(--primary);
+}
+
+#process {
+  border-top-right-radius: 2.1875rem;
+  border-bottom-left-radius: 2.1875rem;
+}
+
+.social,
+.social:hover {
+  color: var(--light);
+}
+
+.style-bottom {
+  background-color: var(--light);
+  border-top-right-radius: 2.1875rem;
+  height: 2.1875rem;
+}
+
+.style-container {
+  background-color: var(--dark);
+  height: 2.1875rem;
+}
+
+.style-top {
+  background-color: var(--light);
+  border-bottom-left-radius: 2.1875rem;
+  height: 2.1875rem;
+}
+
+@media only screen and (max-width: 959px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .card {
+    margin-top: 1.25rem;
+  }
+
+  .container {
+    padding: 0rem 1.25rem;
+  }
+
+  header div .btn {
+    font-size: 1.04125rem;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.17rem;
+  }
+
+  header h5 {
+    font-size: 1.04125rem;
+  }
+
+  .navbar .container {
+    padding: 0rem 0.625rem;
+  }
+
+  .social {
+    margin: 0rem 0.625rem;
+  }
+}
